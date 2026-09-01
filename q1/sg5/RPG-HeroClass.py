@@ -6,13 +6,16 @@
 
 class Hero:
     def __init__(self, name, hp):
-        # TODO: store `name` and `hp` as INSTANCE attributes
-        pass
-
+        self.name = name
+        self.hp = hp 
     def take_damage(self, amount):
-        # TODO: subtract `amount` from this hero's hp
-        pass
+        self.hp -= amount
+vincent = Hero("Vincent", 100)
+troy = Hero("Troy", 100)
 
+vincent.take_damage(10)
+print(f"{vincent.name} HP: {vincent.hp}")
+print(f"{troy.name} HP: {troy.hp}")
 
 # ------------------------------------------------------------
 #  Step 3 — Instantiate two heroes and try them out.
