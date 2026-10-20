@@ -1,0 +1,2 @@
+1. A parent class is a class that can be derived from other classes, meaning other classes can get (inherit) the methods and properties of the parent class. In the video the parent classes of the Programer class is the Employee class.
+2. I would place the Intern class under the Employee class. An intern is an employee (or a member of the workforce) who shares base attributes in the Employee class.
